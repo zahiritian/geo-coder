@@ -1,0 +1,31 @@
+{
+  "name": "zahiritian/laravel-geocoder",
+  "description": "A laravel package to help interact with the google maps api.",
+  "keywords": ["geocoder", "laravel"],
+  "homepage": "https://github.com/zahiritian/laravel-geocoder",
+  "type": "library",
+  "license": "MIT",
+  "authors": [{
+    "name": "Zahir Kkhan",
+    "email": "zahir_itian@hotmail.com"
+  }],
+  "require": {
+      "php": ">=7.0.0"
+  },
+  "autoload": {
+      "psr-4": {
+          "Zahir\\LaravelGeocoder\\": "src/"
+      }
+  },
+  "extra": {
+      "branch-alias": {
+          "dev-master": "0.0-dev"
+      },
+      "laravel": {
+          "providers": [
+              "Zahir\\LaravelGeocoder\\LaravelGeocoderServiceProvider"
+          ]
+      }
+  },
+  "minimum-stability": "dev"
+}
